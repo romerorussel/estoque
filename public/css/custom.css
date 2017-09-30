@@ -1,0 +1,63 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* footer's height */
+}
+/*
+nav.navbar.navbar-default{
+background-color: #337ab7;
+border-color: #2e6da4;
+border-radius: 0!important;
+}
+nav.navbar.navbar-default a {
+color: white;
+}
+li p.navbar-text, a.navbar-brand {
+color: white!important ;
+font-weight: bolder;
+}
+*/
+footer.footer {
+background-color: #337ab7;
+border-color: #2e6da4;
+color: white;
+bottom: 0;
+position: absolute;
+width: 100%
+}
+footer.footer p {
+padding: 10px;
+}
+
+/*
+* Style for form add new product
+*/
+
+.form-produto input{
+	width: 40%;
+}
+.form-produto input[type='number']{
+	width: 10%;
+}
+.form-produto button{
+	width: 20%;
+	margin-top:10px;
+}
+
+
+/**
+* Style for messages
+*/
+
+.sucesso{
+	padding: 15px;
+	border-radius: 5px;
+}
+.sucesso p{
+	margin-left: 10px;
+}
+.margem-top-25{
+	margin-top: 25px;
+}
